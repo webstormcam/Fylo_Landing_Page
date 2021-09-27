@@ -17,6 +17,7 @@ font-family: 'Raleway', sans-serif; */
 #section1{
    max-width: 399px;
    width: 100%;
+   min-height: 100vh;
 }
 
 header{
