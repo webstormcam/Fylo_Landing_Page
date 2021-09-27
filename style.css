@@ -3,3 +3,41 @@
     /* font-family: 'Open Sans', sans-serif;
 font-family: 'Raleway', sans-serif; */
 }
+
+
+#content{
+    width: 100%;
+}
+
+
+
+#section1{
+    max-width: 399px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.logo{
+    width: 5rem;
+}
+
+.header_selection{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.header_selection a{
+    text-decoration: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
