@@ -186,5 +186,14 @@ form button{
         padding:0.6rem 1rem 0.6rem 1rem;
         
     }
+
+    
+}
+
+@media screen and (min-width:1400px){
+
+    #section1{
+        max-width: 1440px;
+    }
 }
 
