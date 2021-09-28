@@ -195,5 +195,54 @@ form button{
     #section1{
         max-width: 1440px;
     }
+
+    .logo{
+        width: 8rem;
+        margin-left: 2rem;
+    }
+
+    .header_selection{
+        margin-right: 2rem;
+    }
+    .header_selection a{
+        font-size: 1rem;
+ 
+     }
+
+    .top_words_and_input{
+        width: 650px;
+        margin-top: 0rem;
+        
+    }
+
+    .image_signup{
+       
+        justify-content: space-around;
+        
+    }
+
+    .top_image{
+        width: 40rem;
+    }
+
+    .words h1{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .words p{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+
+    form input{
+        width: 300px;
+     
+    }
+
+    form button{
+        width: 200px;
+      
+        
+    }
 }
 
