@@ -132,6 +132,8 @@ form button{
 
     .top_image{
         width: 30rem;
+        position: relative;
+        top: 1rem;
     }
 
 
@@ -160,6 +162,7 @@ form button{
         flex-direction: row;
         justify-content: space-between;
         margin-top: 3rem;
+        position: relative;
     }
 
     .image{
@@ -206,8 +209,12 @@ form button{
     }
     .header_selection a{
         font-size: 1rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
  
      }
+
+     
 
     .top_words_and_input{
         width: 650px;
@@ -236,11 +243,13 @@ form button{
 
     form input{
         width: 300px;
+        padding: 0.7rem;
      
     }
 
     form button{
         width: 200px;
+        padding: 0.7rem;
       
         
     }
