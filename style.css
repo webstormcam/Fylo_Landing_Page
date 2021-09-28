@@ -63,3 +63,11 @@ header{
 width: 21rem;
 }
 
+.words{
+    text-align: center;
+}
+
+.words h1{
+    font-size: 2rem;
+}
+
