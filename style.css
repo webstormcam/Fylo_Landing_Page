@@ -103,6 +103,8 @@ form input{
     padding: 1rem;
     margin-bottom: 2rem;
     border: 1px solid;
+    border-radius: 0.5rem;
+    border: 1px solid #07043B ;
 }
 
 form button{
@@ -113,6 +115,25 @@ form button{
     border: 1px solid #7c7c7c;
     font-size: 1.2rem;
     font-family: 'Open Sans', sans-serif;
+    border-radius: 0.5rem;
    
+}
+
+@media screen and (min-width:1024px){
+    
+    #section1{
+        max-width: 1024px;
+    }
+
+
+    
+    
+    .image_signup{
+        flex-direction: row;
+    }
+
+    .image{
+        order: 5;
+    }
 }
 
