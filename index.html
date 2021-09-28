@@ -29,9 +29,27 @@
                 <div class="image">
                     <img class="top_image" src="imgs/illustration-1.svg" alt="">
                 </div>
+                <div class="top_words_and_input">
+                    <div class="words">
+                        <h1>All your files in one secure location, accessiblie anywhere.</h1>
+                        <p>Fylo stores your most important files in one secure location. Access them whenever you need,
+                            share and collaborate with friends, family, and co-workers</p>
+                    </div>
+                    <form id="myForm" class="mobile" name="myForm" action="#"
+                        onsubmit='event.preventDefault(); validateForm(); ' method="get">
+                        <input class="mobile" id='email' type="text" placeholder="Email address" name='email'> </input>
+                        <p id="error"></p>
+                        <button name="cat">Request Access</button>
+
+
+
+                    </form>
+
+                </div>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
