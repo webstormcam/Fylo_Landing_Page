@@ -125,15 +125,57 @@ form button{
         max-width: 1024px;
     }
 
+    .top_words_and_input{
+        width: 470px;
+        padding-left: 1rem;
+    }
+
+    .top_image{
+        width: 34rem;
+    }
+
+
+
+    .words{
+        text-align: left;
+    }
+
+    .words p{
+        padding-left: 0rem;
+
+    }
+
 
     
     
     .image_signup{
         flex-direction: row;
+        justify-content: space-between;
+        margin-top: 1rem;
     }
 
     .image{
         order: 5;
+    }
+
+    form{
+        flex-direction: row;
+       
+        align-items: baseline;
+    }
+
+    form input{
+        width: 200px;
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+    padding:0.5 1rem 0.5rem 1rem;
+    }
+
+    form button{
+        width: 190px;
+        font-size: 1.2rem;
+        padding:0.5 1rem 0.5rem 1rem;
+        
     }
 }
 
