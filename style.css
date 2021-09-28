@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Raleway', sans-serif;
+    
+
 }
 
 
@@ -49,7 +49,8 @@ header{
     text-decoration: none;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    color: black;
+    font-size: 0.8rem;
+    color: #07043B;
 }
 
 .image_signup{
@@ -63,11 +64,55 @@ header{
 width: 21rem;
 }
 
+.top_words_and_input{
+    margin-top: 2rem;
+}
+
 .words{
     text-align: center;
+    color: #07043B;
 }
 
 .words h1{
-    font-size: 2rem;
+    font-size: 1.7rem;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: bold;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+  
+}
+
+.words p{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form input{
+    width: 85%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid;
+}
+
+form button{
+    width: 85%;
+    padding: 1rem;
+    background-color: #2F65F8;
+    color: #fff;
+    border: 1px solid #7c7c7c;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+   
 }
 
