@@ -119,6 +119,23 @@ form button{
    
 }
 
+#section2{
+    max-width: 399px;
+   width: 100%;
+   min-height: 100vh;
+   margin-top: 8rem;
+}
+
+.imagewords{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle_image{
+    width: 21rem;
+}
+
 @media screen and (min-width:1024px){
     
     #section1{
