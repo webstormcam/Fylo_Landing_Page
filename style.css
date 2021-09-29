@@ -156,6 +156,15 @@ form button{
     padding: 0rem 1rem 0rem 1rem;
 }
 
+#green{
+    color: #3DA08F;
+    font-weight: bold;
+    
+    
+}
+
+
+
 @media screen and (min-width:1024px){
     
     #section1{
