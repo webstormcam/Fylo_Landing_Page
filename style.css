@@ -123,7 +123,7 @@ form button{
     max-width: 399px;
    width: 100%;
    min-height: 100vh;
-   margin-top: 8rem;
+   margin-top: 6rem;
 }
 
 .imagewords{
@@ -134,6 +134,26 @@ form button{
 
 .middle_image{
     width: 21rem;
+    margin-top: 2rem;
+}
+
+.words2 h2{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #07043B;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.words2 p{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #615F7E;
+    line-height: 1.5rem;
+    padding: 0rem 1rem 0rem 1rem;
 }
 
 @media screen and (min-width:1024px){
