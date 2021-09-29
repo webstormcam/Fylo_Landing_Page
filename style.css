@@ -159,8 +159,19 @@ form button{
 #green{
     color: #3DA08F;
     font-weight: bold;
+    border-bottom: 1px solid #3DA08F;
+    width: 200px;
+}
+
+#green::after{
+    content: url('imgs/icon-arrow.svg');
     
-    
+  
+}
+
+#green:hover{
+    color: blue;
+    border-color: blue;
 }
 
 
