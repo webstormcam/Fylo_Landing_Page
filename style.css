@@ -163,13 +163,11 @@ form button{
     width: 200px;
 }
 
-#green::after{
-    content: url('imgs/icon-arrow.svg');
-    
-  
-}
 
-#green:hover{
+
+
+
+.greentext_arrow :hover{
     color: blue;
     border-color: blue;
 }
