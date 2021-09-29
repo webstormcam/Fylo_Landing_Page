@@ -165,9 +165,11 @@ form button{
 
 
 
+.some-class{
+    text-decoration: none;
+}
 
-
-.greentext_arrow :hover{
+.some-class>.green:hover{
     color: blue;
     border-color: blue;
 }
