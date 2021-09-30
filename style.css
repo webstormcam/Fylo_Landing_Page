@@ -188,6 +188,7 @@ form button{
     position: relative;
     margin-top: 2rem;
     padding-bottom: 0.8rem;
+    align-self:center;
 
   
 }
@@ -255,6 +256,8 @@ form button{
         max-width: 1024px;
     }
 
+   
+
     .top_words_and_input{
         width: 470px;
         padding-left: 1rem;
@@ -318,6 +321,10 @@ form button{
         font-size: 0.8rem;
         padding:0.6rem 1rem 0.6rem 1rem;
         
+    }
+
+    #section2{
+        max-width: 1024px;
     }
 
     
