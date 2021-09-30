@@ -142,7 +142,7 @@ form button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 470px;
+  
 }
 
 .words2 h2{
@@ -354,6 +354,7 @@ form button{
     .words2{
         align-items: flex-start;
         padding-left: 1rem;
+        width: 470px;
     }
 
     .words2 h2{
@@ -434,6 +435,39 @@ form button{
         padding: 0.7rem;
       
         
+    }
+
+    #section2{
+        max-width: 1440px;
+        
+    }
+
+    .imagewords{
+      padding-left: 1rem;
+    }
+
+    .words2{
+        width: 650px;
+        
+    }
+
+    .words2 h2{
+       
+        font-size: 2.4rem;
+    }
+
+    .words2 p{
+        font-size: 1.2rem;
+    }
+
+    .middle_image{
+        width: 40rem;
+    }
+    .green_icon{
+       
+        top: 0.3rem;
+        right: -0.1rem;
+       
     }
 }
 
