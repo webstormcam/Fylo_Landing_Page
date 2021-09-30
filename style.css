@@ -137,6 +137,12 @@ form button{
     margin-top: 2rem;
 }
 
+.words2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .words2 h2{
     font-family: 'Raleway', sans-serif; 
     font-size: 1.2rem;
@@ -156,23 +162,28 @@ form button{
     padding: 0rem 1rem 0rem 1rem;
 }
 
+.greentext_arrow{
+    position: relative;
+}
+
 #green{
     color: #3DA08F;
     font-weight: bold;
     border-bottom: 1px solid #3DA08F;
     width: 200px;
+    text-align: center;
+}
+
+.green_icon{
+    position: absolute;
+    top: 0.2rem;
+    right: 0.2rem;
+    width: 1.2rem;
 }
 
 
 
-.some-class{
-    text-decoration: none;
-}
 
-.some-class>.green:hover{
-    color: blue;
-    border-color: blue;
-}
 
 
 
