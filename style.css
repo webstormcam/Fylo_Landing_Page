@@ -444,6 +444,7 @@ form button{
 
     .imagewords{
       padding-left: 1rem;
+      justify-content: space-around;
     }
 
     .words2{
