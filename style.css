@@ -126,7 +126,7 @@ form button{
    margin-top: 6rem;
    background-image: url('imgs/bg-curve-mobile.svg');
    background-position: center;
-   background-size: contain;
+   background-size: cover;
 }
 
 .imagewords{
