@@ -333,6 +333,14 @@ form button{
         max-width: 1024px;
     }
 
+    .imagewords{
+        flex-direction: row;
+    }
+
+    .section2_image{
+        order: 5;
+    }
+
     
 }
 
