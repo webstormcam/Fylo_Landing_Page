@@ -184,7 +184,7 @@ form button{
 .quote_cube{
     -webkit-box-shadow: 1px 4px 13px 5px rgba(0,0,0,0.36); 
     box-shadow: 1px 4px 13px 5px rgba(0,0,0,0.36);
-    width: 310px;
+    width: 320px;
     position: relative;
     margin-top: 2rem;
     padding-bottom: 0.8rem;
