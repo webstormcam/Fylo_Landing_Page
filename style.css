@@ -331,6 +331,7 @@ form button{
 
     #section2{
         max-width: 1024px;
+        margin-top: 0rem;
     }
 
     .imagewords{
@@ -339,6 +340,12 @@ form button{
 
     .section2_image{
         order: 5;
+    }
+
+    .middle_image{
+        width: 30rem;
+        position: relative;
+        top: 1rem;
     }
 
     
