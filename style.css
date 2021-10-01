@@ -122,8 +122,9 @@ form button{
 #section2{
     max-width: 399px;
    width: 100%;
-   min-height: 100vh;
+   min-height: 90vh;
    margin-top: 6rem;
+   margin-bottom: 2rem;
    
 }
 
@@ -252,8 +253,7 @@ form button{
 }
 
 #section3{
-    
-   width: 100%;
+     width: 100%;
   background-color: #575988;
   display: flex;
   justify-content: center;
