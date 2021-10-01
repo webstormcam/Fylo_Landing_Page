@@ -251,6 +251,26 @@ form button{
     line-height: 0rem;
 }
 
+#section3{
+    
+   width: 100%;
+  background-color: #575988;
+  display: flex;
+  justify-content: center;
+   
+   
+}
+
+.words_input{
+    display: flex;
+    flex-direction: column;
+    max-width: 399px;
+}
+
+.section3words{
+    text-align: center;
+}
+
 
 
 
