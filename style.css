@@ -257,6 +257,7 @@ form button{
   background-color: #575988;
   display: flex;
   justify-content: center;
+  min-height: 15vh;
    
    
 }
@@ -280,7 +281,7 @@ form button{
 }
 
 .section3words p{
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 
