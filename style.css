@@ -267,12 +267,14 @@ form button{
     display: flex;
     flex-direction: column;
     max-width: 399px;
+    width: 100%;
 }
 
 .section3words{
     text-align: center;
     color: #fff;
     margin-bottom: 2rem;
+    padding-left: 1rem;
 }
 
 .section3words h2{
@@ -396,7 +398,7 @@ form button{
 
     .words2{
         align-items: flex-start;
-        
+        padding-left: 1rem;
         width: 470px;
     }
 
@@ -415,6 +417,50 @@ form button{
     .description{
         margin-left: 1.5rem;
      }
+
+     
+
+     .words_input{
+        display: flex;
+        flex-direction: row;
+        max-width: 1024px;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    #myForm2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .section3input{
+        width: 480px;
+    }
+
+    .section3words{
+        text-align: left;
+        color: #fff;
+        margin-bottom: 2rem;
+        width: 470px;
+    }
+
+    .section3words h2{
+        font-size: 1.6rem;
+    }
+
+
+    .section3words p{
+      
+        padding-left: 0rem ;
+        padding-right:0rem ;
+        line-height: 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    #email2{
+       width: 25rem;
+    }
 
     
 }
@@ -492,6 +538,7 @@ form button{
 
     .words2{
         width: 650px;
+        padding-left: 0rem;
         
     }
 
@@ -512,6 +559,32 @@ form button{
         top: 0.3rem;
         right: -0.1rem;
        
+    }
+
+    .words_input{
+        max-width: 1440px;
+        justify-content: space-between;
+        
+    }
+
+    .section3words{
+        width: 550px;
+        margin-left: 1rem;
+    }
+
+    .section3words h2{
+        font-size: 1.7rem;
+    }
+
+
+    .section3words p{
+      
+        font-size: 1.2rem;
+    }
+
+    .section3input{
+       
+        margin-left: 2rem;
     }
 }
 
