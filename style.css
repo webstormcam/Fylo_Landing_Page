@@ -849,11 +849,11 @@ and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
 
     #section1 {
-        min-height: 60vh;
+        min-height: 0vh;
          }
      
          #section2{
-             min-height: 20vh;
+             min-height: 0vh;
          }
 
 
