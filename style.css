@@ -313,7 +313,17 @@ form button{
 }
 .white_logo{
     width: 7rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
+.icon_info{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+}
+
+
 
 
 
