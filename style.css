@@ -259,6 +259,7 @@ form button{
   justify-content: center;
   min-height: 15vh;
   padding-bottom: 1rem;
+  padding-top: 1rem;
    
    
 }
@@ -299,28 +300,69 @@ form button{
 #section4{
     width: 100%;
     background-color: #07043B;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .section4items{
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
+    width: 100%;
 }
 
 .info_logo{
     display: flex;
     flex-direction: column;
 }
+
+.topinfo{
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
 .white_logo{
     width: 7rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .icon_info{
     display: flex;
     flex-direction: row;
     color: #fff;
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icon{
+    margin-right: 1rem;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.links p{
+    margin-bottom: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    width: 150px;
+    justify-content: space-evenly;
+}
+
+.social{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    width: 2rem;
+ 
 }
 
 
@@ -492,6 +534,20 @@ form button{
        width: 25rem;
     }
 
+    .section4items{
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        margin-right: 1.5rem;
+        max-width: 1024px;
+    }
+
+    .links{
+        flex-direction: column;
+        
+        margin-bottom: 0rem;
+    }
+
     
 }
 
@@ -597,24 +653,44 @@ form button{
         
     }
 
+    #section3{
+    
+     padding-bottom: 4rem;
+     padding-top: 4rem;
+      
+      
+   }
+
     .section3words{
         width: 550px;
         margin-left: 1rem;
     }
 
     .section3words h2{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
 
     .section3words p{
       
         font-size: 1.2rem;
+        line-height: 2rem;
     }
 
     .section3input{
        
         margin-left: 2rem;
+    }
+
+    #email2{
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    margin-bottom: 1.5rem;
+     }
+
+    .section4items{
+        max-width: 1440px;
+        justify-content: space-between;
     }
 }
 
