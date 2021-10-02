@@ -687,7 +687,7 @@ margin-bottom: 1rem;
 
     .words_input{
         max-width: 1440px;
-        justify-content: space-between;
+        justify-content: space-around;
         
     }
 
