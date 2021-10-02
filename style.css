@@ -53,6 +53,14 @@ header{
     color: #07043B;
 }
 
+.shiny :hover{
+    filter: invert(77%) sepia(56%) saturate(5660%) hue-rotate(197deg) brightness(101%) contrast(101%);
+}
+
+button:hover{
+ cursor: pointer;
+}
+
 .image_signup{
     margin-top: 4rem;
     display: flex;
