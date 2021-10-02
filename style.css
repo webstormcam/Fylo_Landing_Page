@@ -362,6 +362,7 @@ form button{
 
 .links  :hover{
     filter: invert(77%) sepia(56%) saturate(5660%) hue-rotate(197deg) brightness(101%) contrast(101%);
+    cursor: pointer;
 }
 
 .socials{
@@ -380,6 +381,7 @@ form button{
 
 .social:hover{
     filter: invert(77%) sepia(56%) saturate(5660%) hue-rotate(197deg) brightness(101%) contrast(101%);
+    cursor: pointer;
 }
 
 #error{
