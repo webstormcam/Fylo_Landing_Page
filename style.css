@@ -352,6 +352,10 @@ form button{
     font-family: 'Open Sans', sans-serif;
 }
 
+.links  :hover{
+    filter: invert(77%) sepia(56%) saturate(5660%) hue-rotate(197deg) brightness(101%) contrast(101%);
+}
+
 .socials{
     display: flex;
     flex-direction: row;
@@ -367,7 +371,7 @@ form button{
 }
 
 .social:hover{
-    
+    filter: invert(77%) sepia(56%) saturate(5660%) hue-rotate(197deg) brightness(101%) contrast(101%);
 }
 
 #error{
@@ -684,6 +688,12 @@ margin-bottom: 1rem;
       
       
    }
+
+   #error{
+    position: absolute;
+    top: 25rem;
+    left: 3rem;
+}
 
     .section3words{
         width: 550px;
