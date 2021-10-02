@@ -739,3 +739,122 @@ margin-bottom: 1rem;
     }
 }
 
+
+
+
+
+/*iPad Pro 9.7"*/
+/* Portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section1 {
+   min-height: 40vh;
+    }
+
+    #section2{
+        min-height: 20vh;
+    }
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section1 {
+        min-height: 80vh;
+         }
+     
+         #section2{
+             min-height: 20vh;
+         }
+
+}
+/*iPad Pro 10.5"*/
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 834px)
+and (max-device-width: 834px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section1 {
+        min-height: 40vh;
+         }
+     
+         #section2{
+             min-height: 20vh;
+         }
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1112px)
+and (max-device-width: 1112px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section1 {
+        min-height: 40vh;
+         }
+     
+         #section2{
+             min-height: 20vh;
+         }
+
+}
+/*ipad PRo 12.9"*/
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section1 {
+        min-height: 40vh;
+         }
+     
+         #section2{
+             min-height: 20vh;
+         }
+
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1366px)
+and (max-device-width: 1366px)
+and (min-device-height:1024px)
+and (max-device-height:1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #section1 {
+        min-height: 60vh;
+         }
+     
+         #section2{
+             min-height: 20vh;
+         }
+
+
+}
