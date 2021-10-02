@@ -366,6 +366,21 @@ form button{
  
 }
 
+.social:hover{
+    
+}
+
+#error{
+color: crimson;
+font-family: 'Open Sans', sans-serif;
+margin-bottom: 1rem;
+}
+#error2{
+    color: yellow;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+}
+
 
 
 
@@ -439,6 +454,7 @@ form button{
         margin-bottom: 0rem;
     padding:0.6rem 1rem 0.6rem 1rem;
     margin-right: 1rem;
+    position: relative;
     }
 
     form button{
@@ -447,6 +463,12 @@ form button{
         padding:0.6rem 1rem 0.6rem 1rem;
         
     }
+    #error{
+        position: absolute;
+        top: 21rem;
+        left: 1rem;
+    }
+
 
     #section2{
         max-width: 1024px;
@@ -468,6 +490,7 @@ form button{
         top: 1rem;
     }
 
+  
     .words2{
         align-items: flex-start;
         padding-left: 1rem;
